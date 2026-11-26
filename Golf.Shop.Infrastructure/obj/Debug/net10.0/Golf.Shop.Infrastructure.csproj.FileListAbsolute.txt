@@ -1,0 +1,16 @@
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.AssemblyInfoInputs.cache
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.AssemblyInfo.cs
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.sourcelink.json
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/bin/Debug/net10.0/Golf.Shop.Infrastructure.deps.json
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/bin/Debug/net10.0/Golf.Shop.Infrastructure.dll
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/bin/Debug/net10.0/Golf.Shop.Infrastructure.pdb
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/bin/Debug/net10.0/Golf.Shop.Application.dll
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/bin/Debug/net10.0/Golf.Shop.Application.pdb
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.csproj.AssemblyReference.cache
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Sho.D51D13CF.Up2Date
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.dll
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/refint/Golf.Shop.Infrastructure.dll
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/Golf.Shop.Infrastructure.pdb
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Infrastructure/obj/Debug/net10.0/ref/Golf.Shop.Infrastructure.dll

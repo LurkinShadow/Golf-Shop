@@ -1,0 +1,59 @@
+﻿# One compose file for local + CI (no compose.ci.yaml → no drift).
+# Profiles split use cases: "run the app" (dev) vs "run tests" (test) — not CI vs local.
+x-db-connection: &db-connection
+  ConnectionStrings__RepairOrderDBConnectionString=Host=postgres;Port=5432;Database=repairorders;Username=golfshop;Password=golfshop
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres
+    environment:
+      POSTGRES_USER: golfshop
+      POSTGRES_PASSWORD: golfshop
+      POSTGRES_DB: repairorders
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U golfshop"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # Lesson 5: only starts when profile "dev" is active (default via .env)
+  golf.shop.web:
+    profiles: [dev]
+    image: golf.shop.web
+    build:
+      context: .
+      dockerfile: Golf.Shop.Web/Dockerfile
+    ports:
+      - "5059:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - *db-connection
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # Lesson 5: only starts when profile "test" is active (CI / make test)
+  tests:
+    profiles: [test]
+    image: golfshop-test:ci
+    build:
+      context: .
+      dockerfile: Golf.Shop.Web/Dockerfile
+      target: test
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - *db-connection
+    volumes:
+      - ./TestResults:/TestResults
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Golf.Shop.Web", "Golf.Shop.Web\Golf.Shop.Web.csproj", "{8077DAA1-E41F-4DCF-8ABA-C10E73197AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Golf.Shop.Web.Tests.UnitTests", "Golf.Shop.Web.Tests.UnitTests\Golf.Shop.Web.Tests.UnitTests.csproj", "{43009E33-9AF4-445F-91BA-8ED9A63EA7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Golf.Shop.Application", "Golf.Shop.Application\Golf.Shop.Application.csproj", "{C19DEB6A-DE35-4581-AD6B-92C927F3D6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Golf.Shop.Infrastructure", "Golf.Shop.Infrastructure\Golf.Shop.Infrastructure.csproj", "{741ECA0F-76B8-4F68-A63D-F75DE5C2559B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6CD9B71E-E535-48E2-B58E-9CE43D28DC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Golf.Shop.Application.Tests.UnitTests", "Golf.Shop.Application.Tests.UnitTests\Golf.Shop.Application.Tests.UnitTests.csproj", "{B792D4C6-B6B8-4679-948E-A746D79173DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Golf.Shop.IntegrationTests", "Golf.Shop.IntegrationTests\Golf.Shop.IntegrationTests.csproj", "{0C791E4C-FFE9-4B34-AB23-02411A3195F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8077DAA1-E41F-4DCF-8ABA-C10E73197AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8077DAA1-E41F-4DCF-8ABA-C10E73197AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8077DAA1-E41F-4DCF-8ABA-C10E73197AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8077DAA1-E41F-4DCF-8ABA-C10E73197AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43009E33-9AF4-445F-91BA-8ED9A63EA7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43009E33-9AF4-445F-91BA-8ED9A63EA7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43009E33-9AF4-445F-91BA-8ED9A63EA7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43009E33-9AF4-445F-91BA-8ED9A63EA7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19DEB6A-DE35-4581-AD6B-92C927F3D6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19DEB6A-DE35-4581-AD6B-92C927F3D6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19DEB6A-DE35-4581-AD6B-92C927F3D6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19DEB6A-DE35-4581-AD6B-92C927F3D6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741ECA0F-76B8-4F68-A63D-F75DE5C2559B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741ECA0F-76B8-4F68-A63D-F75DE5C2559B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741ECA0F-76B8-4F68-A63D-F75DE5C2559B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741ECA0F-76B8-4F68-A63D-F75DE5C2559B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B792D4C6-B6B8-4679-948E-A746D79173DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B792D4C6-B6B8-4679-948E-A746D79173DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B792D4C6-B6B8-4679-948E-A746D79173DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B792D4C6-B6B8-4679-948E-A746D79173DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C791E4C-FFE9-4B34-AB23-02411A3195F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C791E4C-FFE9-4B34-AB23-02411A3195F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C791E4C-FFE9-4B34-AB23-02411A3195F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C791E4C-FFE9-4B34-AB23-02411A3195F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43009E33-9AF4-445F-91BA-8ED9A63EA7F1} = {6CD9B71E-E535-48E2-B58E-9CE43D28DC5D}
+		{B792D4C6-B6B8-4679-948E-A746D79173DE} = {6CD9B71E-E535-48E2-B58E-9CE43D28DC5D}
+		{0C791E4C-FFE9-4B34-AB23-02411A3195F6} = {6CD9B71E-E535-48E2-B58E-9CE43D28DC5D}
+	EndGlobalSection
+EndGlobal

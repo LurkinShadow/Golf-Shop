@@ -1,0 +1,12 @@
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/Golf.Shop.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/Golf.Shop.Application.AssemblyInfoInputs.cache
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/Golf.Shop.Application.AssemblyInfo.cs
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/Golf.Shop.Application.csproj.CoreCompileInputs.cache
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/Golf.Shop.Application.sourcelink.json
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/bin/Debug/net10.0/Golf.Shop.Application.deps.json
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/bin/Debug/net10.0/Golf.Shop.Application.dll
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/bin/Debug/net10.0/Golf.Shop.Application.pdb
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/Golf.Shop.Application.dll
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/refint/Golf.Shop.Application.dll
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/Golf.Shop.Application.pdb
+/Users/W519740/dev/Learning/golf-shop/Golf.Shop/Golf.Shop.Application/obj/Debug/net10.0/ref/Golf.Shop.Application.dll
